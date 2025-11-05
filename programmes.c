@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 void rightaligntrianglewithnumbers();
+
 int main()
 {
     rightaligntrianglewithnumbers();
-
     printf("Hello world\n");
 
     return 0;
@@ -249,9 +249,10 @@ void rightangletrianlewithstars()
 
 void rightaligntrianglewithstars()
 {
+    // fix this function
     for (int i = 0; i < 5; i++)
     {
-        for (int j = 0; j < 5; j++)
+        for (int j = 0; j <= 5; j++)
         {
             if (j >= 5 - i)
             {
@@ -271,7 +272,7 @@ void rightangletrianlewithnumbers()
     {
         for (int j = 0; j < i + 1; j++)
         {
-            printf("*");
+            printf("%d", j + 1);
         }
         printf("\n");
     }
@@ -281,11 +282,11 @@ void rightaligntrianglewithnumbers()
 {
     for (int i = 0; i < 5; i++)
     {
-        for (int j = 0; j < 5; j++)
+        for (int j = 0; j <= 5; j++)
         {
             if (j >= 5 - i)
             {
-                printf("%d", i + 1);
+                printf("%d", j);
             }
             else
             {
